@@ -1,8 +1,9 @@
 {
   "name": "micromath-binominal-coefficient",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "This package provides the functionality to calculate binominal coefficents",
   "author": "David Hölkeskamp <dhoelkeskamp@gmail.com>",
+  "main": "./build/binominal-coefficient.min.js",
   "keywords": [
     "math",
     "binominal coefficient"
