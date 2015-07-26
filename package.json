@@ -1,0 +1,20 @@
+{
+  "name": "micromath-binominal-coefficient",
+  "version": "0.0.0",
+  "description": "This package provides the functionality to calculate binominal coefficents",
+  "author": "David Hölkeskamp <dhoelkeskamp@gmail.com>",
+  "keywords": [
+    "math",
+    "binominal coefficient"
+  ],
+  "scripts": {
+    "test": "mocha ./test/binominal-coefficientSpec.js",
+    "build": "uglifyjs ./src/binominal-coefficient.js -c -m -o ./build/binominal-coefficient.min.js"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "uglifyjs": "^2.4.10",
+    "micromath-factorial": "^1.0.3"
+  }
+}
